@@ -24,7 +24,7 @@
 
 body {
     font-family: ZenKakuGothicAntique;
-    background-color: #f5d7b5;
+    background-color: rgba(242, 221, 156, 1);
 
 }
 
@@ -38,7 +38,7 @@ body {
 header {
     grid-column: 1 / span 12;
     grid-row: 1 / span 1;
-    background-color: rgb(255, 157, 0);
+    background-color:rgba(29, 37, 22, 1);
     font-weight: bold;
 }
 
@@ -47,7 +47,15 @@ nav ul {
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
+    font-style: white;
 }
+
+.navigation-link {
+    text-decoration: none;
+    color: white;
+}
+
+
 
 main {
     grid-column: 1 / span 12;
@@ -58,6 +66,21 @@ main {
 footer {
     grid-column: 1 / span 12;
     grid-row: 6 / span 1;
-    background-color: red;
+    background-color:rgba(29, 37, 22, 1);
+    font-weight: bold;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    font-style: white;
+
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
 
 }
