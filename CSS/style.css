@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'ZenKakuGothicAntique';
+    src: url('../Schriften/ZenKakuGothicAntique-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ZenKakuGothicAntique';
+    src: url('../Schriften/ZenKakuGothicAntique-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
 .grid-container {
     display: grid;
     grid-row-gap: 10px;
@@ -8,6 +23,7 @@
 
 
 body {
+    font-family: ZenKakuGothicAntique;
     background-color: #f5d7b5;
 
 }
@@ -23,8 +39,7 @@ header {
     grid-column: 1 / span 12;
     grid-row: 1 / span 1;
     background-color: rgb(255, 157, 0);
-    font-family: monospace;
-
+    font-weight: bold;
 }
 
 nav ul {
@@ -37,7 +52,6 @@ nav ul {
 main {
     grid-column: 1 / span 12;
     grid-row: 2 / span 4;
-    font-family: monospace;
 
 }
 
@@ -45,6 +59,5 @@ footer {
     grid-column: 1 / span 12;
     grid-row: 6 / span 1;
     background-color: red;
-    font-family: monospace;
 
 }
