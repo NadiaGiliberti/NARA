@@ -6,9 +6,42 @@
 .naragmbh {
     margin-left: auto;
     line-height: 0.5;
+    text-align: right;
 }
 
 .geschaeftsfuehrerinnen {
     margin-top: -70px;
     line-height: 1.2;
+}
+
+.headerbild {     
+    width: 110%;
+    height: auto;
+    margin-top: 0;
+    display: block;
+    position: relative;
+}
+
+.footerbild {
+    width: 110%;
+    height: auto;
+    margin-bottom: 0;
+    display: block;
+    position: relative;
+}
+
+.backen {
+    width: 210px;
+    height: 210px;
+    position: absolute; 
+    top: 1500px; 
+    right: 165px; 
+}
+
+.laedeli {
+    width: 200px;
+    height: 200px;
+    position: absolute; 
+    top: 310px; 
+    left: 100px; 
 }
