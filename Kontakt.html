@@ -11,11 +11,11 @@
 
 <body>
 
-    <div class="grid-container">
+    <div>
 
-        <header class="grid-item">
+        <header class="header">
 
-            <nav class="grid-item navigation">
+            <nav class="navigation container">
                 <ul class="navigation-list">
                     <li><a class="navigation-link" href="angebot.html">Angebot</a></li>
                     <li><a class="navigation-link" href="ueber_uns.html">Über uns</a></li>
@@ -25,41 +25,43 @@
 
         </header>
 
-        <main class="grid-item">
-            <h1>Kontakt</h1>
-            <h3>Wir freuen uns auf deine Anfrage</h3>
+        <main class="main">
+            <div class="container">
+                <h1>Kontakt</h1>
+                <h3>Wir freuen uns auf deine Anfrage</h3>
 
-            <section>
-                <form>
-                    <label for="email">E-Mail*</label>
-                    <input type="email" id="email" placeholder="max.muster@outlook.ch" required>
-                    <label for="name">Name*</label>
-                    <input type="name" id="name" placeholder="Hans Muster" required>
-                    <label for="strasse">Strasse</label>
-                    <input type="strasse" id="strasse">
-                    <label for="plz,ort">PLZ, Ort</label>
-                    <input type="plz,ort" id="plz,ort">
-                    <label for="telefon">Telefon</label>
-                    <input type="telefon" id="telefon">
-                    <label for="Nachricht">Deine Nachricht*</label>
-                    <input type="Nachricht" id="Nachricht" required>
+                <section>
+                    <form>
+                        <label for="email">E-Mail*</label>
+                        <input type="email" id="email" placeholder="max.muster@outlook.ch" required>
+                        <label for="name">Name*</label>
+                        <input type="name" id="name" placeholder="Hans Muster" required>
+                        <label for="strasse">Strasse</label>
+                        <input type="strasse" id="strasse">
+                        <label for="plz,ort">PLZ, Ort</label>
+                        <input type="plz,ort" id="plz,ort">
+                        <label for="telefon">Telefon</label>
+                        <input type="telefon" id="telefon">
+                        <label for="Nachricht">Deine Nachricht*</label>
+                        <input type="Nachricht" id="Nachricht" required>
 
-                    <input id="sendenButton" type="submit" value="Submit">
+                        <input id="sendenButton" type="submit" value="Submit">
 
 
-                </form>
+                    </form>
 
-            </section>
-
+                </section>
+            </div>
 
         </main>
-        <footer class="grid-item footer">
-            <ul class="footer-list">
-                <li><a class="footer-link" href="kontakt.html">Kontakt</a></li>
-                <li><a class="footer-link" href="impressum.html">Impressum</a></li>
-            </ul>
+        <footer class="footer">
+            <nav class="navigation container">
+                <ul class="footer-list">
+                    <li><a class="footer-link" href="kontakt.html">Kontakt</a></li>
+                    <li><a class="footer-link" href="impressum.html">Impressum</a></li>
+                </ul>
+            </nav>
         </footer>
-
     </div>
 </body>
 
