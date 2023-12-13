@@ -1,0 +1,48 @@
+img{
+    width: 445px;
+    height: 445px;
+    position: absolute; 
+    top: 176px; 
+    right: 207px; 
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px; 
+    margin: 0; 
+}
+
+label, input {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+label {
+    font-size: 32px;
+    text-transform: uppercase;
+    
+}
+
+textarea {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+#betreff {
+    width: 455px;
+    height: 44px;
+}
+
+#email {
+    width: 455px;
+    height: 44px;
+}
+
+#nachricht {
+    width: 930px;
+    height: 260px;
+}
+

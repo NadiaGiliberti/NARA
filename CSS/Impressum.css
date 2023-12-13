@@ -1,0 +1,14 @@
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.naragmbh {
+    margin-left: auto;
+    line-height: 0.5;
+}
+
+.geschaeftsfuehrerinnen {
+    margin-top: -70px;
+    line-height: 1.2;
+}

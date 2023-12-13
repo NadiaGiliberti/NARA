@@ -28,30 +28,25 @@
         <main class="main">
             <div class="container">
                 <h1>Kontakt</h1>
-                <h3>Wir freuen uns auf deine Anfrage</h3>
+                <h2>Schreibe uns!</h2>
 
                 <section>
-                    <form>
+                    <form class="form-container">
+                        <label for="betreff">Betreff</label>
+                        <input type="text" id="betreff">
                         <label for="email">E-Mail*</label>
                         <input type="email" id="email" placeholder="max.muster@outlook.ch" required>
-                        <label for="name">Name*</label>
-                        <input type="name" id="name" placeholder="Hans Muster" required>
-                        <label for="strasse">Strasse</label>
-                        <input type="strasse" id="strasse">
-                        <label for="plz,ort">PLZ, Ort</label>
-                        <input type="plz,ort" id="plz,ort">
-                        <label for="telefon">Telefon</label>
-                        <input type="telefon" id="telefon">
-                        <label for="Nachricht">Deine Nachricht*</label>
-                        <input type="Nachricht" id="Nachricht" required>
-
+                        <label for="nachricht">Nachricht*</label>
+                        <textarea id="nachricht" required></textarea>
                         <input id="sendenButton" type="submit" value="Submit">
-
-
                     </form>
-
                 </section>
+                
             </div>
+
+            <img src="Images/Kontakt/04_kontakt_megaphone.svg" alt="Megaphon">
+
+
 
         </main>
         <footer class="footer">
