@@ -66,6 +66,28 @@ body {
 }
 
 
+h1 {
+
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%;
+    font-style: white;
+    
+}
+
+h2 {
+
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+p {
+
+    font-size: 24px;
+}
+
+
 .grid-item {
 
     padding: 50px;
@@ -73,7 +95,7 @@ body {
 }
 
 .header {
-    background-color:rgba(29, 37, 22, 1);
+    background-color: rgba(29, 37, 22, 1);
     font-weight: bold;
 
     display: flex;
@@ -106,7 +128,7 @@ main {
 footer {
     grid-column: 1 / span 12;
     grid-row: 6 / span 1;
-    background-color:rgba(29, 37, 22, 1);
+    background-color: rgba(29, 37, 22, 1);
     font-weight: bold;
 }
 
