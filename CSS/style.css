@@ -97,12 +97,13 @@ h2 {
 
     font-size: 32px;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 p {
 
     font-size: 24px;
-    font-weight: 900;
+    font-weight: bold;
 }
 
 nav ul {
@@ -115,6 +116,7 @@ nav ul {
 
 li {
     font-size: 24px;
+    font-weight: bold;
 }   
 .navigation-link {
     text-decoration: none;
