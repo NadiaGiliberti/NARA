@@ -15,7 +15,7 @@
 }
 
 .headerbild {     
-    width: 110%;
+    width: 100%;
     height: auto;
     margin-top: 0;
     display: block;
@@ -23,25 +23,40 @@
 }
 
 .footerbild {
-    width: 110%;
+    width: 100%;
     height: auto;
     margin-bottom: 0;
     display: block;
     position: relative;
+    z-index: 1; 
 }
 
 .backen {
     width: 210px;
     height: 210px;
     position: absolute; 
-    top: 1500px; 
-    right: 165px; 
+    top: 1380px; 
+    right: 250px; 
+    z-index: 2; 
 }
 
 .laedeli {
     width: 200px;
     height: 200px;
     position: absolute; 
-    top: 310px; 
-    left: 100px; 
+    top: 475px; 
+    left: 200px; 
+}
+
+h1 { 
+
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: left;
+        width: 1130px;
+        height: 172px;
+        flex-shrink: 0;
+
 }

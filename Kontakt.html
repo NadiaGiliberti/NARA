@@ -17,6 +17,7 @@
 
             <nav class="navigation container">
                 <ul class="navigation-list">
+
                     <li><a class="navigation-link" href="angebot.html">Angebot</a></li>
                     <li><a class="navigation-link" href="ueber_uns.html">Über uns</a></li>
                     <li><a class="navigation-link" href="kontakt.html">Kontakt</a></li>
@@ -24,31 +25,42 @@
             </nav>
 
         </header>
-
+        <img src="Images/Kontakt/04_kontakt_header.svg" class="headerbild" alt="header">
         <main class="main">
             <div class="container">
                 <h1>Kontakt</h1>
-                <h2>Schreibe uns!</h2>
+                <h2 class="schreibeuns"> Schreibe uns!</h2>
 
-                <section>
+                <section class="flex-column">
+                    <article class="naragmbh">
+                        <h2>NARA GmbH</h2>
+                        <p>Holzikofenweg 8 </p>
+                        <p>3007 Bern</p>
+                        <p>Telefon +41 (0)32 765 43 21</p>
+                        <P>E-Mail: info@nara.ch</P>
+                        <P>www.nara.ch</P>
+                    </article>
                     <form class="form-container">
                         <label for="betreff">Betreff</label>
                         <input type="text" id="betreff">
-                        <label for="email">E-Mail*</label>
+                        <label for="email">E-Mail</label>
                         <input type="email" id="email" placeholder="max.muster@outlook.ch" required>
-                        <label for="nachricht">Nachricht*</label>
+                        <label for="nachricht">Nachricht</label>
                         <textarea id="nachricht" required></textarea>
-                        <input id="sendenButton" type="submit" value="Submit">
+                        <input id="sendenButton" type="submit" value="senden">
                     </form>
                 </section>
-                
+
             </div>
 
-            <img src="Images/Kontakt/04_kontakt_megaphone.svg" alt="Megaphon">
+            <img src="Images/Kontakt/04_kontakt_megaphone.svg" class="megaphon" alt="megaphon">
+            <img src="Images/Kontakt/04_kontakt_grüne_bohnen.svg" class="bohnen" alt="grüne bohnen">
+            <img src="Images/Kontakt/04_kontakt_spargeln.svg" class="spargeln" alt="spargeln">
 
 
 
         </main>
+                <img src="Images/Kontakt/04_kontakt_footer.svg" class="footerbild" alt="footer">
         <footer class="footer">
             <nav class="navigation container">
                 <ul class="footer-list">
@@ -56,8 +68,11 @@
                     <li><a class="footer-link" href="impressum.html">Impressum</a></li>
                 </ul>
             </nav>
+
         </footer>
+
     </div>
+
 </body>
 
 </html>
