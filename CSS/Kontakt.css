@@ -16,8 +16,7 @@
 .form-container input,
 .form-container textarea {
     margin-bottom: 20px;
-    position: relative;
-    top: -40px;
+    top: 100px;
 }
 
 .megaphon {
