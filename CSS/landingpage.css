@@ -11,10 +11,10 @@ article img {
 
 
 
-/* h1 {
+h1 {
 
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: left;
@@ -22,12 +22,59 @@ article img {
     width: 1130px;
     height: 172px;
     flex-shrink:0;
-} */
+} 
 
 .imgwelt {
     width: 445px;
     height: 445px;
     position: absolute;
-    top: 50%;
-    left: 40%;
+    top: 380px;
+    left: 845px;
+}
+
+.imgherz {
+width: 177px;
+height: 177px;
+position: absolute;
+transform: rotate(27.071deg);
+flex-shrink: 0;
+top: 325px;
+left: 1110px;
+}
+
+.buttons  {
+        width: fit-content;
+        background-color: rgba(157, 192, 28, 1);
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        
+}
+
+#front-button {
+position: absolute;
+top: 419px;
+left: 190px;
+}
+
+.menue1 {
+    width: 149px;
+height: 149px;
+flex-shrink: 0;
+position: absolute;
+top: 1303px;
+left: 1110px;
+
+}
+
+.nachhaltig-buttons {
+
+    display: flex;
+    align-items:center;
+    justify-content: row;
 }
