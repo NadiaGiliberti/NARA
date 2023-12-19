@@ -18,63 +18,82 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: left;
-    margin: 0; 
+    margin: 0;
     width: 1130px;
     height: 172px;
-    flex-shrink:0;
-} 
+    flex-shrink: 0;
+}
 
 .imgwelt {
     width: 445px;
     height: 445px;
     position: absolute;
-    top: 380px;
+    top: 308px;
     left: 845px;
 }
 
 .imgherz {
-width: 177px;
-height: 177px;
-position: absolute;
-transform: rotate(27.071deg);
-flex-shrink: 0;
-top: 325px;
-left: 1110px;
+    width: 177px;
+    height: 177px;
+    position: absolute;
+    transform: rotate(27.071deg);
+    flex-shrink: 0;
+    top: 253px;
+    left: 1110px;
 }
 
-.buttons  {
-        width: fit-content;
-        background-color: rgba(157, 192, 28, 1);
-        color: #fff;
-        font-size: 24px;
-        font-weight: bold;
-        text-transform: uppercase;
-        padding: 10px;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-        
+.buttons {
+    width: fit-content;
+    background-color: rgba(157, 192, 28, 1);
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+
 }
 
 #front-button {
-position: absolute;
-top: 419px;
-left: 190px;
+    position: absolute;
+    top: 419px;
+    left: 190px;
 }
 
 .menue1 {
     width: 149px;
-height: 149px;
-flex-shrink: 0;
-position: absolute;
-top: 1303px;
-left: 1110px;
+    height: 149px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 1240px;
+    left: 1110px;
 
 }
 
-.nachhaltig-buttons {
-
+.nachaltig-buttons {
     display: flex;
-    align-items:center;
-    justify-content: row;
+
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+
+}
+
+.footer-grün {
+   
+    width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+}
+
+.imgzwiebel {
+width: 145px;
+height: 145px;
+transform: rotate(90deg);
+
+top: 2453px;
+left: 146px;
 }
