@@ -164,7 +164,7 @@ margin-left: 30px;
 }
 
 
-.button {
+.einloggen {
     width: fit-content;
     background-color: rgba(157, 192, 28, 1);
     color: #fff;
@@ -173,11 +173,10 @@ margin-left: 30px;
     text-transform: uppercase;
     padding: 10px;
     border-radius: 10px;
-    cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-#button:hover {
+.einloggen:hover {
     background-color: rgb(120, 146, 25);
 }
 

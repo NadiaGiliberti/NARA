@@ -135,3 +135,19 @@ h1 {
     font-family: 'ZenKakuGothicAntique';
     font-size: 20px;
 }
+
+.sendenbutton {
+    width: fit-content;
+    background-color: rgba(157, 192, 28, 1);
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.sendenbutton:hover {
+    background-color: rgb(120, 146, 25);
+}
