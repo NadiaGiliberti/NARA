@@ -100,21 +100,6 @@ textarea {
     height: 260px;
 }
 
-h1 {
-
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: left;
-    width: 1130px;
-    height: 172px;
-    flex-shrink: 0;
-
-}
-
-
-
 .footerbild {
     width: 100%;
     height: auto;

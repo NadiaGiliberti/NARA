@@ -90,6 +90,15 @@ h1 {
     font-weight: 900;
     line-height: 100%;
     color: white;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    width: 1130px;
+    height: 172px;
+    flex-shrink: 0;
+
 }
 
 h2 {
@@ -126,7 +135,7 @@ li {
     text-transform: uppercase;
 }
 
-.navigation-link, 
+.navigation-link,
 .footer-link {
     text-decoration: none;
     color: white;
@@ -143,19 +152,19 @@ footer {
 }
 
 .footer-list {
-    display:flex;
+    display: flex;
     gap: 30px;
     list-style: none;
     margin-left: auto;
 }
 
-.footer-link, 
+.footer-link,
 .footer img {
     margin: 0;
 }
 
 .footer img {
-margin-left: 30px;
+    margin-left: 30px;
 
 }
 
@@ -181,40 +190,128 @@ margin-left: 30px;
 }
 
 
+
+
+
+
+
+
 /*** Tablet  ***/
 @media screen and (max-width: 768px) {
     .container {
-        width: 740px;
-    }
-
-    .header {
-        height: 80px;
+        width: 700px;
+        margin: 0 auto;
     }
 
     h1 {
+
         font-size: 60px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 100%;
+        color: white;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: left;
+        width: 700px;
+        height: 172px;
+        flex-shrink: 0;
+
     }
 
     h2 {
+
         font-size: 24px;
+        text-transform: uppercase;
+        font-weight: bold;
     }
 
     p {
+
         font-size: 18px;
+        font-weight: bold;
     }
 
     li {
         font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
     }
 
-    footer {
-        height: 80px;
+
+    .einloggen {
+        width: fit-content;
+        background-color: rgba(157, 192, 28, 1);
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 10px;
+        border-radius: 10px;
+        transition: background-color 0.3s ease;
     }
+
 }
 
 /*** Handy  ***/
 @media screen and (max-width: 576px) {
+
     .container {
-        width: 480px;
+        width: 450px;
+        margin: 0 auto;
     }
+
+    h1 {
+
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 100%;
+        color: white;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: left;
+        width: 450px;
+        height: 172px;
+        flex-shrink: 0;
+
+    }
+
+    h2 {
+
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    p {
+
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    li {
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+
+    .einloggen {
+        width: fit-content;
+        background-color: rgba(157, 192, 28, 1);
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 10px;
+        border-radius: 10px;
+        transition: background-color 0.3s ease;
+    }
+
+
 }
