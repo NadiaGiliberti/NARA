@@ -55,7 +55,7 @@
     width: 140px;
     height: 140px;
     position: absolute;
-    top: 1270px;
+    top: 900px;
     left: 600px;
     z-index: 3;
 }
@@ -64,7 +64,7 @@
     width: 120px;
     height: 120px;
     position: absolute;
-    top: 1290px;
+    top: 900px;
     left: 280px;
     transform: scaleX(-1);
     z-index: 3;
