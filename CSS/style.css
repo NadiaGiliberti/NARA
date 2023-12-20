@@ -69,7 +69,7 @@ body {
 
 
 .container {
-    width: 1130px;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -95,7 +95,7 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: left;
-    width: 1130px;
+    width: 80%;
     height: 172px;
     flex-shrink: 0;
 
@@ -190,16 +190,10 @@ footer {
 }
 
 
-
-
-
-
-
-
 /*** Tablet  ***/
 @media screen and (max-width: 768px) {
     .container {
-        width: 700px;
+        width: 80%;
         margin: 0 auto;
     }
 
@@ -215,7 +209,7 @@ footer {
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: left;
-        width: 700px;
+        width: 80%;
         height: 172px;
         flex-shrink: 0;
 
@@ -259,7 +253,7 @@ footer {
 @media screen and (max-width: 576px) {
 
     .container {
-        width: 450px;
+        width: 80%;
         margin: 0 auto;
     }
 
@@ -275,7 +269,7 @@ footer {
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: left;
-        width: 450px;
+        width: 80%;
         height: 172px;
         flex-shrink: 0;
 
