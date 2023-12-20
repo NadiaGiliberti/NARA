@@ -55,7 +55,7 @@ article img {
     height: 149px;
     flex-shrink: 0;
     position: absolute;
-    top: 1240px;
+    top: 1290px;
     left: 1110px;
 
 }
@@ -74,13 +74,15 @@ article img {
     width: 100%;
     height: auto;
     margin-bottom: 0px;
+    position: relative;
+    z-index: 1;
 }
 
 .imgzwiebel {
 width: 145px;
 height: 145px;
 transform: rotate(90deg);
-
 top: 2453px;
 left: 146px;
+z-index: 2;
 }
