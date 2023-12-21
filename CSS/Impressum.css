@@ -46,3 +46,24 @@
     top: 350px; 
     left: 200px; 
 }
+
+/*** Handy  ***/
+@media screen and (max-width: 576px) {
+    .naragmbh {
+        margin-left: 0px;
+        line-height: 0.5;
+        text-align: left;
+        margin-top: 30px;
+    }
+    
+    .geschaeftsfuehrerinnen {
+        margin-top: 0px;
+    }
+
+    .laedeli {
+        width: 100px;
+        height: 100px;
+margin-left: 0px;
+
+    }
+}

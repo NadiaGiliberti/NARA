@@ -3,10 +3,6 @@
     flex-direction: column;
 }
 
-.schreibeuns {
-    position: absolute;
-    top: 50%;
-}
 
 .form-container label {
     margin-bottom: 60px;
@@ -14,7 +10,8 @@
 
 .form-container label,
 .form-container input,
-.form-container textarea {
+.form-container textarea, 
+.schreibeuns, {
     margin-bottom: 20px;
     top: 100px;
 }
@@ -116,6 +113,7 @@ textarea {
     top: 63%;
     left: 50%;
 }
+
 #email {
     font-family: 'ZenKakuGothicAntique';
     font-size: 20px;
