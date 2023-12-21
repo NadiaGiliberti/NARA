@@ -40,6 +40,7 @@
 h1 {
     z-index: 2;
 }
+
 button {
     width: fit-content;
     background-color: rgba(157, 192, 28, 1);
@@ -120,6 +121,18 @@ margin-top: 10px;
         position: relative;
     }
 
+    button {
+        width: fit-content;
+        background-color: rgba(157, 192, 28, 1);
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 10px;
+        border-radius: 10px;
+        transition: background-color 0.3s ease;
+        border: none;
+    }
 
 }
 
@@ -134,6 +147,19 @@ margin-top: 10px;
         margin-top: 0;
         display: block;
         position: relative;
+    }
+
+    button {
+        width: fit-content;
+        background-color: rgba(157, 192, 28, 1);
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 10px;
+        border-radius: 10px;
+        transition: background-color 0.3s ease;
+        border: none;
     }
 
 }
