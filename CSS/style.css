@@ -127,6 +127,7 @@ nav ul {
     gap: 30px;
     list-style: none;
     color: white;
+    flex-direction: row;
 }
 
 li {
@@ -183,6 +184,7 @@ footer {
     padding: 10px;
     border-radius: 10px;
     transition: background-color 0.3s ease;
+    border: none;
 }
 
 .einloggen:hover {
@@ -191,7 +193,7 @@ footer {
 
 
 /*** Tablet  ***/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 577px){
     .container {
         width: 80%;
         margin: 0 auto;
@@ -234,6 +236,12 @@ footer {
         text-transform: uppercase;
     }
 
+    nav ul {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
 
     .einloggen {
         width: fit-content;
@@ -245,6 +253,7 @@ footer {
         padding: 10px;
         border-radius: 10px;
         transition: background-color 0.3s ease;
+        border: none;
     }
 
 }
@@ -294,6 +303,12 @@ footer {
         text-transform: uppercase;
     }
 
+    nav ul {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
 
     .einloggen {
         width: fit-content;
@@ -305,6 +320,7 @@ footer {
         padding: 10px;
         border-radius: 10px;
         transition: background-color 0.3s ease;
+        border: none;
     }
 
 
