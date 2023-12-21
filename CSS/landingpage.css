@@ -12,21 +12,19 @@ article img {
 
 
 .imgwelt {
-    width: 445px;
-    height: 445px;
+    width: 30%;
     position: absolute;
     top: 308px;
     left: 60%;
 }
 
 .imgherz {
-    width: 177px;
-    height: 177px;
+    width: 10%;
     position: absolute;
     transform: rotate(27.071deg);
     flex-shrink: 0;
-    top: 253px;
-    left: 1110px;
+    top: 35%;
+    left: 75%
 }
 
 .buttons {
@@ -42,6 +40,14 @@ article img {
     transition: background-color 0.3s ease;
     margin-bottom: 20px;
 
+
+}
+
+.nachaltig-buttons {
+    display: flex;
+    gap: 20px;
+    /* Abstand zwischen den Buttons */
+    margin-top: 20px;
 }
 
 #front-button {
@@ -50,39 +56,67 @@ article img {
     left: 190px;
 }
 
+.article1 {
+    display: flex;
+    flex-direction: row;
+    /* Horizontal anordnen */
+    justify-content: start;
+    /* Zentrieren der Elemente horizontal */
+    align-items: start;
+    text-align: start;
+    flex-wrap: wrap;
+}
+
+.article2 {
+    display: flex;
+    flex-direction: row;
+    /* Horizontal anordnen */
+    justify-content: start;
+    /* Zentrieren der Elemente horizontal */
+    align-items: start;
+    text-align: start;
+    flex-wrap: wrap;
+}
+
+.article3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    flex-wrap: wrap;
+}
+
 .menue1 {
     width: 149px;
     height: 149px;
-    flex-shrink: 0;
-    position: absolute;
-    top: 1290px;
-    left: 1110px;
+    justify-self: end;
 
 }
 
-.nachaltig-buttons {
+.article4 {
     display: flex;
-
-    align-items: center;
-    gap: 15px;
-    margin-top: 20px;
-
-}
-
-.footer-grün {
-   
-    width: 100%;
-    height: auto;
-    margin-bottom: 0px;
-    position: relative;
-    z-index: 1;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    flex-wrap: wrap;
 }
 
 .imgzwiebel {
-width: 145px;
-height: 145px;
-transform: rotate(90deg);
-top: 2453px;
-left: 146px;
-z-index: 2;
-}
+    width: 145px;
+    height: 145px;
+    transform: rotate(90deg);
+
+left: 20%;
+top: 90%;   
+    }
+
+    .footer-grün {
+   
+        width: 100%;
+        position: relative;
+        display: block;
+    }
+    
+    
