@@ -4,13 +4,6 @@
     margin-top: 0;
 }
 
-article img {
-    width: 100%;
-    object-fit: cover;
-}
-
-
-
 .imgwelt {
     width: 30%;
     position: absolute;
@@ -46,7 +39,6 @@ article img {
 .nachaltig-buttons {
     display: flex;
     gap: 20px;
-    /* Abstand zwischen den Buttons */
     margin-top: 20px;
 }
 
@@ -86,7 +78,8 @@ article img {
     width: 149px;
     height: 149px;
     justify-self: end;
-    align-items: center;
+    align-self: center;
+    margin-left: 50px;
 
 }
 
@@ -103,16 +96,65 @@ article img {
     width: 145px;
     height: 145px;
     transform: rotate(90deg);
+    z-index: 2;
+    position: absolute;
+    left: 15%;
+}
 
-left: 20%;
-top: 90%;   
-    }
+.startseite-gemüse {
+    width: 328px;
+    height: 328px;
+    z-index: 2;
+    position: absolute;
+    left: 70%;
+    
+}
 
-    .footer-grün {
-   
-        width: 100%;
-        position: relative;
-        display: block;
-    }
-    
-    
+.footer-grün {
+
+    width: 100%;
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+
+.trennstrich {
+    width: 100%;
+}
+
+.article5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+}
+
+.partner {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#denner {
+    width: 265px;
+    height: 57px;
+}
+
+#rüedu {
+    width: 265px;
+    height: 174px;
+}
+
+#alnatura {
+    width: 265px;
+    height: 132px;
+}
+
+#migros {
+    width: 285px;
+    height: 67px;
+}
