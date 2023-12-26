@@ -44,8 +44,9 @@
 
 #front-button {
     position: absolute;
-    top: 419px;
-    left: 190px;
+    left: 10%;
+    top: 60%;
+
 }
 
 .article1 {
@@ -158,3 +159,5 @@
     width: 285px;
     height: 67px;
 }
+
+
