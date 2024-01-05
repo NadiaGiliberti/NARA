@@ -4,12 +4,39 @@
     top: -150px;
     margin-top: 0;
 }
+.footerbild {
+    width: 100%;
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+.trennstrich {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    width: 100%;
+}
 .imgeinkaufsladen {
     width: auto;       /* Allow the width to adjust based on content and available space */
     max-width: 390px;  /* Restrict the maximum width */
     position: absolute;
     top: 100px;
     left: 60%;
+}
+.imgpfanne {
+    width: auto;       /* Allow the width to adjust based on content and available space */
+    max-width: 272px;  /* Restrict the maximum width */
+    position: absolute;
+    bottom: 100px;
+    left: 60%;
+    z-index: 2;
+}
+.imgbrokkoli {
+    width: auto;       /* Allow the width to adjust based on content and available space */
+    max-width: 102px;  /* Restrict the maximum width */
+    position: absolute;
+    bottom: 240px;
+    right: 10%;
+    z-index: 2;
 }
 .video-container {
     position: relative; /* Establish positioning context for absolute positioning */
@@ -40,4 +67,125 @@
 .imgbaum {
     max-width: 213px;  /* Restrict the maximum width */
     right: -120px;
+}
+.buttons {
+    width: fit-content;
+    background-color: rgba(157, 192, 28, 1);
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+.buttons:hover {
+    background-color: rgb(120, 146, 25);
+}
+.article1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    flex-wrap: wrap;
+}
+.article2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    flex-wrap: wrap;
+}
+.article3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    flex-wrap: wrap;
+}
+.article4 {
+    display: flex;            /* Use flexbox for layout */
+    align-items: center;      /* Vertically align items */
+    position: relative;       /* Establish positioning context for absolute positioning */
+}
+.article4 img {
+    max-width: 50%;           /* Adjust as needed */
+    margin-right: -30px;      /* Negative margin to make the image overlap the paragraph's border */
+    z-index: 2;               /* Ensure the image appears above the paragraph's border */
+}
+.article4 p {
+    flex: 1;                  /* Allow paragraph to take up remaining space */
+    margin: 0;                /* Remove default margin */
+    position: relative;       /* Relative positioning for the paragraph */
+    padding: 15px;            /* Padding inside the paragraph for space */
+    border: 15px solid #155929; /* Green stroke around the paragraph */
+    border-radius: 30px;      /* Rounded corners for the stroke */
+    box-sizing: border-box;   /* Ensure padding is included in the element's total width/height */
+    z-index: 1;               /* Ensure the paragraph's border appears below the image */
+}
+.article5 {
+    display: flex;            /* Use flexbox for layout */
+    align-items: center;      /* Vertically align items */
+    flex-direction: row-reverse;   /* Reverse the direction to place image on the right */
+    position: relative;       /* Establish positioning context for absolute positioning */
+}
+.article5 img {
+    max-width: 50%;           /* Adjust as needed */
+    margin-left: -30px;        /* Positive margin to give space between image and paragraph */
+    z-index: 2;               /* Ensure the image appears above the paragraph's border */
+}
+.article5 p {
+    flex: 1;                  /* Allow paragraph to take up remaining space */
+    margin: 0;                /* Remove default margin */
+    position: relative;       /* Relative positioning for the paragraph */
+    padding: 15px;            /* Padding inside the paragraph for space */
+    border: 15px solid #155929; /* Green stroke around the paragraph */
+    border-radius: 30px;      /* Rounded corners for the stroke */
+    box-sizing: border-box;   /* Ensure padding is included in the element's total width/height */
+    z-index: 1;               /* Ensure the paragraph's border appears below the image */
+}
+.article6 {
+    display: flex;            /* Use flexbox for layout */
+    align-items: center;      /* Vertically align items */
+    position: relative;       /* Establish positioning context for absolute positioning */
+}
+.article6 img {
+    max-width: 50%;           /* Adjust as needed */
+    margin-right: -30px;      /* Negative margin to make the image overlap the paragraph's border */
+    z-index: 2;               /* Ensure the image appears above the paragraph's border */
+}
+.article6 p {
+    flex: 1;                  /* Allow paragraph to take up remaining space */
+    margin: 0;                /* Remove default margin */
+    position: relative;       /* Relative positioning for the paragraph */
+    padding: 15px;            /* Padding inside the paragraph for space */
+    border: 15px solid #155929; /* Green stroke around the paragraph */
+    border-radius: 30px;      /* Rounded corners for the stroke */
+    box-sizing: border-box;   /* Ensure padding is included in the element's total width/height */
+    z-index: 1;               /* Ensure the paragraph's border appears below the image */
+}
+.article7 {
+    display: flex;            /* Use flexbox for layout */
+    align-items: center;      /* Vertically align items */
+    flex-direction: row-reverse;   /* Reverse the direction to place image on the right */
+    position: relative;       /* Establish positioning context for absolute positioning */
+}
+.article7 img {
+    max-width: 50%;           /* Adjust as needed */
+    margin-left: -30px;        /* Positive margin to give space between image and paragraph */
+    z-index: 2;               /* Ensure the image appears above the paragraph's border */
+}
+.article7 p {
+    flex: 1;                  /* Allow paragraph to take up remaining space */
+    margin: 0;                /* Remove default margin */
+    position: relative;       /* Relative positioning for the paragraph */
+    padding: 15px;            /* Padding inside the paragraph for space */
+    border: 15px solid #155929; /* Green stroke around the paragraph */
+    border-radius: 30px;      /* Rounded corners for the stroke */
+    box-sizing: border-box;   /* Ensure padding is included in the element's total width/height */
+    z-index: 1;               /* Ensure the paragraph's border appears below the image */
 }
