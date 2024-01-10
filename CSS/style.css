@@ -316,7 +316,7 @@ footer {
     }
 
     nav ul {
-        display: flex;
+        display: block;
         align-items: center;
         gap: 10px;
     }
