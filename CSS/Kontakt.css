@@ -2,7 +2,10 @@
     display: flex;
     flex-direction: column;
 }
-
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
 
 .form-container label {
     margin-bottom: 60px;
@@ -11,18 +14,17 @@
 .form-container label,
 .form-container input,
 .form-container textarea, 
-.schreibeuns, {
+.schreibeuns {
     margin-bottom: 20px;
     top: 100px;
 }
 
 .megaphon {
-    width: 445px;
-    height: 445px;
-    position: absolute;
-    top: 200px;
-    right: 320px;
-    z-index: 3;
+    width: 30%;
+    margin-left: 60%;
+    margin-top: -28%;
+        position: relative;
+        z-index: 3;
 }
 
 
@@ -36,20 +38,18 @@
 
 
 .bohnen {
-    width: 140px;
-    height: 140px;
-    position: absolute;
-    top: 1230px;
-    left: 600px;
+    width: 7%;
+margin-left: 15%;
+margin-bottom: -7%;
+    position: relative;
     z-index: 3;
 }
 
 .spargeln {
-    width: 120px;
-    height: 120px;
-    position: absolute;
-    top: 1250px;
-    left: 280px;
+    width: 7%;
+margin-left: 15%;
+margin-bottom: -7%;
+    position: relative;
     transform: scaleX(-1);
     z-index: 3;
 
@@ -109,7 +109,6 @@ textarea {
 .naragmbh {
     line-height: 0.5;
     text-align: left;
-    position: absolute;
     top: 63%;
     left: 50%;
 }
