@@ -125,7 +125,7 @@
 }
 .article4 img {
     max-width: 50%;           /* Adjust as needed */
-    margin-right: -30px;      /* Negative margin to make the image overlap the paragraph's border */
+    margin-right: -1%;      /* Negative margin to make the image overlap the paragraph's border */
     z-index: 2;               /* Ensure the image appears above the paragraph's border */
 }
 .article4 p {
@@ -146,7 +146,7 @@
 }
 .article5 img {
     max-width: 50%;           /* Adjust as needed */
-    margin-left: -30px;        /* Positive margin to give space between image and paragraph */
+    margin-left: -1%;        /* Positive margin to give space between image and paragraph */
     z-index: 2;               /* Ensure the image appears above the paragraph's border */
 }
 .article5 p {
@@ -166,7 +166,7 @@
 }
 .article6 img {
     max-width: 50%;           /* Adjust as needed */
-    margin-right: -30px;      /* Negative margin to make the image overlap the paragraph's border */
+    margin-right: -1%;      /* Negative margin to make the image overlap the paragraph's border */
     z-index: 2;               /* Ensure the image appears above the paragraph's border */
 }
 .article6 p {
@@ -187,7 +187,7 @@
 }
 .article7 img {
     max-width: 50%;           /* Adjust as needed */
-    margin-left: -30px;        /* Positive margin to give space between image and paragraph */
+    margin-left: -1%;        /* Positive margin to give space between image and paragraph */
     z-index: 2;               /* Ensure the image appears above the paragraph's border */
 }
 .article7 p {
@@ -199,4 +199,12 @@
     border-radius: 30px;      /* Rounded corners for the stroke */
     box-sizing: border-box;   /* Ensure padding is included in the element's total width/height */
     z-index: 1;               /* Ensure the paragraph's border appears below the image */
+}
+.article8 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    flex-wrap: wrap;
 }
