@@ -16,25 +16,22 @@
     width: 100%;
 }
 .imgeinkaufsladen {
-    width: auto;       /* Allow the width to adjust based on content and available space */
-    max-width: 390px;  /* Restrict the maximum width */
+    width: 25%;       /* Allow the width to adjust based on content and available space */
     position: absolute;
-    top: 100px;
+    top: 16%;
     left: 60%;
 }
 .imgpfanne {
-    width: auto;       /* Allow the width to adjust based on content and available space */
-    max-width: 272px;  /* Restrict the maximum width */
+    width: 21%;       /* Allow the width to adjust based on content and available space */
     position: absolute;
-    bottom: 100px;
+    bottom: 27%;
     left: 60%;
     z-index: 2;
 }
 .imgbrokkoli {
-    width: auto;       /* Allow the width to adjust based on content and available space */
-    max-width: 102px;  /* Restrict the maximum width */
+    width: 6%;       /* Allow the width to adjust based on content and available space */
     position: absolute;
-    bottom: 240px;
+    bottom: 60%;
     right: 10%;
     z-index: 2;
 }
@@ -57,16 +54,15 @@
 .imgtanne, .imgbaum {
     position: absolute;
     bottom: 0;
-    width: auto;       /* Allow the width to adjust based on content and available space */
     height: auto;      /* Maintain aspect ratio */
 }
 .imgtanne {
-    max-width: 305px;  /* Restrict the maximum width */
-    left: -140px;
+    width: 25%;       /* Allow the width to adjust based on content and available space */
+    right: 84.7%;
 }
 .imgbaum {
-    max-width: 213px;  /* Restrict the maximum width */
-    right: -120px;
+    width: 18%;       /* Allow the width to adjust based on content and available space */
+    left: 92%;
 }
 .buttons {
     width: fit-content;
@@ -82,6 +78,21 @@
 }
 .buttons:hover {
     background-color: rgb(120, 146, 25);
+}
+/* For screens smaller than 768px */
+@media (max-width: 767px) {
+    .buttons {
+        font-size: 18px;
+        padding: 8px;
+    }
+}
+
+/* For screens between 768px and 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .buttons {
+        font-size: 20px;
+        padding: 9px;
+    }
 }
 .article1 {
     display: flex;
@@ -114,7 +125,7 @@
 }
 .article4 img {
     max-width: 50%;           /* Adjust as needed */
-    margin-right: -30px;      /* Negative margin to make the image overlap the paragraph's border */
+    margin-right: -1%;      /* Negative margin to make the image overlap the paragraph's border */
     z-index: 2;               /* Ensure the image appears above the paragraph's border */
 }
 .article4 p {
@@ -135,7 +146,7 @@
 }
 .article5 img {
     max-width: 50%;           /* Adjust as needed */
-    margin-left: -30px;        /* Positive margin to give space between image and paragraph */
+    margin-left: -1%;        /* Positive margin to give space between image and paragraph */
     z-index: 2;               /* Ensure the image appears above the paragraph's border */
 }
 .article5 p {
@@ -155,7 +166,7 @@
 }
 .article6 img {
     max-width: 50%;           /* Adjust as needed */
-    margin-right: -30px;      /* Negative margin to make the image overlap the paragraph's border */
+    margin-right: -1%;      /* Negative margin to make the image overlap the paragraph's border */
     z-index: 2;               /* Ensure the image appears above the paragraph's border */
 }
 .article6 p {
@@ -176,7 +187,7 @@
 }
 .article7 img {
     max-width: 50%;           /* Adjust as needed */
-    margin-left: -30px;        /* Positive margin to give space between image and paragraph */
+    margin-left: -1%;        /* Positive margin to give space between image and paragraph */
     z-index: 2;               /* Ensure the image appears above the paragraph's border */
 }
 .article7 p {
@@ -188,4 +199,12 @@
     border-radius: 30px;      /* Rounded corners for the stroke */
     box-sizing: border-box;   /* Ensure padding is included in the element's total width/height */
     z-index: 1;               /* Ensure the paragraph's border appears below the image */
+}
+.article8 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    flex-wrap: wrap;
 }
