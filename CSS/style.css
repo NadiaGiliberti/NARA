@@ -104,7 +104,7 @@ h1 {
     transform: translate(-50%, -50%);
     text-align: left;
     width: 80%;
-    height: 172px;
+   /* height: -2em;*/
     flex-shrink: 0;
 
 }
@@ -225,7 +225,7 @@ footer {
         transform: translate(-50%, -50%);
         text-align: left;
         width: 80%;
-        height: 172px;
+      /*  height: -2em;*/
         flex-shrink: 0;
 
     }
@@ -293,6 +293,7 @@ footer {
         text-align: left;
         width: 80%;
         flex-shrink: 0;
+       /* height: -2em;*/
 
     }
 
