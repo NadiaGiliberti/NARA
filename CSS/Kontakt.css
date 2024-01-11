@@ -118,8 +118,8 @@ textarea {
 .naragmbh {
     line-height: 0.5;
     text-align: left;
-    top: 63%;
-    left: 50%;
+margin-top: -15%;
+margin-left: -20%;
 }
 
 #email {
