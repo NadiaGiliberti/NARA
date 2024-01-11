@@ -5,6 +5,7 @@
 .flex-row {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .form-container label {
@@ -33,6 +34,7 @@
     height: auto;
     display: block;
     position: relative;
+    
 }
 .header-container {
     font-size: 80px;
@@ -41,7 +43,7 @@
     
 h1 { 
     font-size: 6vw;
-margin-top: 0%;
+    margin-top: 0%;
 }
 
 
@@ -116,10 +118,10 @@ textarea {
 
 
 .naragmbh {
-    line-height: 0.5;
+    line-height: 0;
     text-align: left;
 margin-top: -15%;
-margin-left: -20%;
+flex-direction: column;
 }
 
 #email {
