@@ -7,19 +7,21 @@
 .imgwelt {
     width: 30%;
     position: absolute;
-    top: 308px;
+    top: 45%;
     left: 60%;
+    
 }
 
 .imgherz {
     width: 10%;
     position: absolute;
     transform: rotate(27.071deg);
-    flex-shrink: 0;
     top: 35%;
     left: 75%
 }
-
+.front-dings {
+    display: flex;
+}
 .buttons {
     width: fit-content;
     background-color: rgba(157, 192, 28, 1);
@@ -162,3 +164,148 @@
 }
 
 
+/*** small laptop  ***/
+@media screen and (max-width: 1100px) {
+
+    h1 {
+
+        font-size: 70px;
+
+
+    }
+
+
+    .headerbild{
+        width: 100%;
+        height: 400px;
+        margin-top: 0;
+        display: block;
+        position: relative;
+    }
+
+}
+
+/*** Tablet  ***/
+@media screen and (max-width: 768px) {
+
+
+    .headerbild{
+        width: 100%;
+        height: 500px;
+        margin-top: 0;
+        display: block;
+        position: relative;
+    }
+
+    .buttons {
+        width: fit-content;
+        background-color: rgba(157, 192, 28, 1);
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 10px;
+        border-radius: 10px;
+        transition: background-color 0.3s ease;
+        border: none;
+    }
+    #front-button {
+        width: fit-content;
+        background-color: rgba(157, 192, 28, 1);
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 10px;
+        border-radius: 10px;
+        transition: background-color 0.3s ease;
+        border: none;
+    
+    
+    }
+    .partner {
+        flex-direction: column;
+        width: fit-content;
+    }
+
+    h1 {
+
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 100%;
+        color: white;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: left;
+        width: 80%;
+        height: 172px;
+        flex-shrink: 0;
+
+    }
+
+}
+
+
+
+/*** Handy  ***/
+@media screen and (max-width: 576px) {
+
+    .headerbild{
+        width: 100%;
+        height: 250px;
+        margin-top: 0;
+        display: block;
+        position: relative;
+    }
+
+    .buttons
+     {
+        width: fit-content;
+        background-color: rgba(157, 192, 28, 1);
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 10px;
+        border-radius: 10px;
+        transition: background-color 0.3s ease;
+        border: none;
+    }
+    .partner {
+        flex-direction: column;
+        width: fit-content;
+    }
+    #front-button {
+        width: fit-content;
+        background-color: rgba(157, 192, 28, 1);
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 10px;
+        border-radius: 10px;
+        transition: background-color 0.3s ease;
+        border: none;
+    
+    }
+
+    h1 {
+
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 100%;
+        color: white;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: left;
+        width: 80%;
+        flex-shrink: 0;
+
+    }
+}
