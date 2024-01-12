@@ -213,6 +213,9 @@ footer {
     background-color: rgb(120, 146, 25);
 }
 
+.naralogo {
+    margin-right: 5px;
+}
 
 /*** Tablet  ***/
 @media screen and (max-width: 768px) and (min-width: 577px){
@@ -234,7 +237,6 @@ footer {
         transform: translate(-50%, -50%);
         text-align: left;
         width: 80%;
-      /*  height: -2em;*/
         flex-shrink: 0;
 
     }
