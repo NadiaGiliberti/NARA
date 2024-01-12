@@ -134,6 +134,15 @@ nav {
 
 }
 
+nav div {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    color: white;
+    flex-direction: row;
+}
+
 nav ul {
     display: flex;
     align-items: center;
@@ -255,6 +264,11 @@ footer {
         gap: 20px;
     }
 
+    nav div {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
 
     .einloggen {
         width: fit-content;
@@ -269,6 +283,17 @@ footer {
         border: none;
     }
 
+    .footer-list {
+        display: flex;
+        gap: 20px;
+        list-style: none;
+        margin-left: auto;
+    }
+
+    .footer img {
+        margin-left: 20px;
+    
+    }
 }
 
 /*** Handy  ***/
@@ -315,6 +340,11 @@ footer {
         font-weight: bold;
         text-transform: uppercase;
     }
+    nav div {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
 
     nav ul {
         display: block;
@@ -336,5 +366,15 @@ footer {
         border: none;
     }
 
+    .footer-list {
+        display: flex;
+        gap: 4px;
+        list-style: none;
+        margin-left: auto;
+    }
 
+    .footer img {
+        margin-left: 4px;
+    
+    }
 }
