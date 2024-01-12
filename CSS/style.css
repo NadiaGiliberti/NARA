@@ -104,7 +104,6 @@ h1 {
     transform: translate(-50%, -50%);
     text-align: left;
     width: 80%;
-   /* height: -2em;*/
     flex-shrink: 0;
 
 }
@@ -227,17 +226,6 @@ footer {
     h1 {
 
         font-size: 60px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: 100%;
-        color: white;
-        position: absolute;
-        top: 25%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: left;
-        width: 80%;
-        flex-shrink: 0;
 
     }
 
@@ -309,18 +297,6 @@ footer {
     h1 {
 
         font-size: 36px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: 100%;
-        color: white;
-        position: absolute;
-        top: 25%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: left;
-        width: 80%;
-        flex-shrink: 0;
-       /* height: -2em;*/
 
     }
 
