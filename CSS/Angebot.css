@@ -108,24 +108,9 @@ button:hover {
 
 
 
-/*** small laptop  ***/
-@media screen and (max-width: 1100px) {
-
-
-
-    .bildheader {
-        height: 400px;
-    }
-
-}
-
 /*** Tablet  ***/
 @media screen and (max-width: 768px) {
 
-
-    .bildheader {
-        height: 400px;
-    }
 
     button {
         font-size: 18px;
@@ -142,10 +127,6 @@ button:hover {
 
 /*** Handy  ***/
 @media screen and (max-width: 576px) {
-
-    .bildheader {
-        height: 250px;
-    }
 
     button {
         font-size: 16px;
