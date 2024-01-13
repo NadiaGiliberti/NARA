@@ -98,13 +98,9 @@ h1 {
     font-weight: 900;
     line-height: 100%;
     color: white;
+    display: block;
     position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: left;
-    width: 80%;
-    flex-shrink: 0;
+    top: 85px;
 
 }
 
@@ -136,7 +132,7 @@ nav {
 nav div {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 15px;
     list-style: none;
     color: white;
     flex-direction: row;
@@ -145,7 +141,7 @@ nav div {
 nav ul {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 15px;
     list-style: none;
     color: white;
     flex-direction: row;
@@ -217,7 +213,7 @@ footer {
 }
 
 /*** Tablet  ***/
-@media screen and (max-width: 768px) and (min-width: 577px){
+@media screen and (max-width: 768px) and (min-width: 577px) {
     .container {
         width: 80%;
         margin: 0 auto;
@@ -249,16 +245,18 @@ footer {
     }
 
     nav ul {
-        display: flex;
+        display: block;
         align-items: center;
-        gap: 20px;
+        gap: 10px;
     }
 
     nav div {
         display: flex;
         align-items: center;
-        gap: 20px;
+        gap: 10px;
     }
+
+    
 
     .einloggen {
         width: fit-content;
@@ -282,7 +280,7 @@ footer {
 
     .footer img {
         margin-left: 20px;
-    
+
     }
 }
 
@@ -318,6 +316,7 @@ footer {
         font-weight: bold;
         text-transform: uppercase;
     }
+
     nav div {
         display: flex;
         align-items: center;
@@ -353,6 +352,6 @@ footer {
 
     .footer img {
         margin-left: 4px;
-    
+
     }
 }
