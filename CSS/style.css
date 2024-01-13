@@ -93,15 +93,26 @@ body {
 
 h1 {
 
-    font-size: 80px;
     font-style: normal;
     font-weight: 900;
     line-height: 100%;
     color: white;
-    display: block;
     position: absolute;
-    top: 85px;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    width: 80%;
+    flex-shrink: 0;
+    font-size: 6vw;
+}
 
+.headerbild {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    
 }
 
 h2 {
@@ -219,12 +230,6 @@ footer {
         margin: 0 auto;
     }
 
-    h1 {
-
-        font-size: 60px;
-
-    }
-
     h2 {
 
         font-size: 24px;
@@ -290,12 +295,6 @@ footer {
     .container {
         width: 80%;
         margin: 0 auto;
-    }
-
-    h1 {
-
-        font-size: 36px;
-
     }
 
     h2 {

@@ -111,10 +111,6 @@ button:hover {
 /*** small laptop  ***/
 @media screen and (max-width: 1100px) {
 
-    h1 {
-
-        font-size: 70px;
-    }
 
 
     .bildheader {
@@ -140,12 +136,6 @@ button:hover {
         width: 20%;
 
     }
-
-    h1 {
-
-        font-size: 60px;
-    }
-
 }
 
 
@@ -166,10 +156,6 @@ button:hover {
 
     }
 
-    h1 {
-
-        font-size: 36px;
-    }
    
 
 }
