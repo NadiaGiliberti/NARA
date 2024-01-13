@@ -15,10 +15,7 @@
 }
 
 
-.front-dings {
-    display: flex;
-    flex-wrap: wrap;
-}
+
 .buttons {
     width: fit-content;
     background-color: rgba(157, 192, 28, 1);
