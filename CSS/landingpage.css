@@ -9,20 +9,15 @@
 .imgwelt {
     width: 30%;
     position: absolute;
-    top: 45%;
+    top: 35%;
     left: 60%;
     
 }
 
-.imgherz {
-    width: 10%;
-    position: absolute;
-    transform: rotate(27.071deg);
-    top: 35%;
-    left: 75%
-}
+
 .front-dings {
     display: flex;
+    flex-wrap: wrap;
 }
 .buttons {
     width: fit-content;
@@ -81,8 +76,8 @@
 }
 
 .menue1 {
-    width: 149px;
-    height: 149px;
+    width: 15%;
+    height: auto;
     justify-self: end;
     align-self: center;
     margin-left: 50px;
@@ -167,6 +162,9 @@
         display: block;
         position: relative;
     }
+    .imgwelt {
+        top: 30%;
+    }
 
     .buttons {
         width: fit-content;
@@ -191,23 +189,7 @@
 
     }
 
-    h1 {
-
-        font-size: 60px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: 100%;
-        color: white;
-        position: absolute;
-        top: 25%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: left;
-        width: 80%;
-        height: 172px;
-        flex-shrink: 0;
-
-    }
+   
 
 }
 
@@ -250,24 +232,13 @@
         gap: 10px;
     }
 
-    h1 {
-
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: 100%;
-        color: white;
-        position: absolute;
-        top: 25%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: left;
-        width: 80%;
-        flex-shrink: 0;
-
-    }
+   
     .nachaltig-buttons {
 
         flex-wrap: wrap;
+    }
+
+    .imgwelt {
+        top: 30%;
     }
 }
