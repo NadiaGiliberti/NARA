@@ -1,15 +1,18 @@
 
 .headerbild {
     width: 100%;
-    height: auto;
-    top: -150px;
     margin-top: 0;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+h1{
+    z-index: 1;
 }
 .footerbild {
     width: 100%;
-    position: relative;
     display: block;
-    z-index: 1;
+    position: relative;
 }
 .trennstrich {
     margin-top: 8%;
@@ -17,53 +20,59 @@
     width: 100%;
 }
 .imgeinkaufsladen {
-    width: 25%;       /* Allow the width to adjust based on content and available space */
-    position: absolute;
-    top: 16%;
+    width: 25%;       
+    position: relative;
+    margin-top: -30%;
     left: 60%;
+    z-index: 2;
 }
 .imgpfanne {
-    width: 21%;       /* Allow the width to adjust based on content and available space */
+    width: 21%;      
     position: absolute;
     bottom: 27%;
     left: 60%;
     z-index: 2;
 }
 .imgbrokkoli {
-    width: 6%;       /* Allow the width to adjust based on content and available space */
+    width: 6%;     
     position: absolute;
     bottom: 60%;
     right: 10%;
     z-index: 2;
 }
 .video-container {
-    position: relative; /* Establish positioning context for absolute positioning */
-    display: inline-block; /* Ensure the container only takes up the necessary space */
+    position: relative; 
+    display: inline-block; 
 }
-
 .video-container video {
-    max-width: 100%; /* Ensure the video does not exceed the container width */
+    max-width: 100%; 
     width: 100%; 
-    height: auto;   /* Maintain aspect ratio */
+    height: auto;  
     display: block;
-    margin: 0 auto; /* Center the video */
-    align-items: center; /* This is not needed here unless the video is a flex container, which it isn't in this case */
+    margin: 0 auto; 
+    align-items: center; 
     margin-top: 50px;
-    border: 15px solid #155929; /* Green stroke around the video */
-    border-radius: 15px; /* Rounded corners */
+    border: 15px solid #155929; 
+    border-radius: 15px; 
 }
 .imgtanne, .imgbaum {
     position: absolute;
     bottom: 0;
-    height: auto;      /* Maintain aspect ratio */
+    height: auto;     
 }
 .imgtanne {
-    width: 25%;       /* Allow the width to adjust based on content and available space */
+    width: 25%;     
     right: 84.7%;
 }
 .imgbaum {
-    width: 18%;       /* Allow the width to adjust based on content and available space */
+    width: 18%;    
     left: 92%;
+}
+.registrieren {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 55px;
+
 }
 .buttons {
     width: fit-content;
@@ -80,15 +89,12 @@
 .buttons:hover {
     background-color: #789219;
 }
-/* For screens smaller than 768px */
 @media (max-width: 767px) {
     .buttons {
         font-size: 18px;
         padding: 8px;
     }
 }
-
-/* For screens between 768px and 1023px */
 @media (min-width: 768px) and (max-width: 1023px) {
     .buttons {
         font-size: 20px;
@@ -120,86 +126,86 @@
     flex-wrap: wrap;
 }
 .article4 {
-    display: flex;            /* Use flexbox for layout */
-    align-items: center;      /* Vertically align items */
-    position: relative;       /* Establish positioning context for absolute positioning */
+    display: flex;            
+    align-items: center;    
+    position: relative;      
 }
 .article4 img {
-    max-width: 50%;           /* Adjust as needed */
-    margin-right: -1%;      /* Negative margin to make the image overlap the paragraph's border */
-    z-index: 2;               /* Ensure the image appears above the paragraph's border */
+    max-width: 50%;         
+    margin-right: -1%;     
+    z-index: 2;           
 }
 .article4 p {
-    flex: 1;                  /* Allow paragraph to take up remaining space */
-    margin: 0;                /* Remove default margin */
-    position: relative;       /* Relative positioning for the paragraph */
-    padding: 15px;            /* Padding inside the paragraph for space */
-    border: 15px solid #155929; /* Green stroke around the paragraph */
-    border-radius: 30px;      /* Rounded corners for the stroke */
-    box-sizing: border-box;   /* Ensure padding is included in the element's total width/height */
-    z-index: 1;               /* Ensure the paragraph's border appears below the image */
+    flex: 1;                 
+    margin: 0;               
+    position: relative;      
+    padding: 15px;            
+    border: 15px solid #155929; 
+    border-radius: 30px;      
+    box-sizing: border-box;   
+    z-index: 1;            
 }
 .article5 {
-    display: flex;            /* Use flexbox for layout */
-    align-items: center;      /* Vertically align items */
-    flex-direction: row-reverse;   /* Reverse the direction to place image on the right */
-    position: relative;       /* Establish positioning context for absolute positioning */
+    display: flex;          
+    align-items: center;    
+    flex-direction: row-reverse;  
+    position: relative;    
 }
 .article5 img {
-    max-width: 50%;           /* Adjust as needed */
-    margin-left: -1%;        /* Positive margin to give space between image and paragraph */
-    z-index: 2;               /* Ensure the image appears above the paragraph's border */
+    max-width: 50%;         
+    margin-left: -1%;       
+    z-index: 2;              
 }
 .article5 p {
-    flex: 1;                  /* Allow paragraph to take up remaining space */
-    margin: 0;                /* Remove default margin */
-    position: relative;       /* Relative positioning for the paragraph */
-    padding: 15px;            /* Padding inside the paragraph for space */
-    border: 15px solid #155929; /* Green stroke around the paragraph */
-    border-radius: 30px;      /* Rounded corners for the stroke */
-    box-sizing: border-box;   /* Ensure padding is included in the element's total width/height */
-    z-index: 1;               /* Ensure the paragraph's border appears below the image */
+    flex: 1;              
+    margin: 0;               
+    position: relative;      
+    padding: 15px;        
+    border: 15px solid #155929; 
+    border-radius: 30px;     
+    box-sizing: border-box;  
+    z-index: 1;              
 }
 .article6 {
-    display: flex;            /* Use flexbox for layout */
-    align-items: center;      /* Vertically align items */
-    position: relative;       /* Establish positioning context for absolute positioning */
+    display: flex;           
+    align-items: center;     
+    position: relative;      
 }
 .article6 img {
-    max-width: 50%;           /* Adjust as needed */
-    margin-right: -1%;      /* Negative margin to make the image overlap the paragraph's border */
-    z-index: 2;               /* Ensure the image appears above the paragraph's border */
+    max-width: 50%;          
+    margin-right: -1%;     
+    z-index: 2;              
 }
 .article6 p {
-    flex: 1;                  /* Allow paragraph to take up remaining space */
-    margin: 0;                /* Remove default margin */
-    position: relative;       /* Relative positioning for the paragraph */
-    padding: 15px;            /* Padding inside the paragraph for space */
-    border: 15px solid #155929; /* Green stroke around the paragraph */
-    border-radius: 30px;      /* Rounded corners for the stroke */
-    box-sizing: border-box;   /* Ensure padding is included in the element's total width/height */
-    z-index: 1;               /* Ensure the paragraph's border appears below the image */
+    flex: 1;                 
+    margin: 0;                
+    position: relative;     
+    padding: 15px;         
+    border: 15px solid #155929; 
+    border-radius: 30px;     
+    box-sizing: border-box;   
+    z-index: 1;               
 }
 .article7 {
-    display: flex;            /* Use flexbox for layout */
-    align-items: center;      /* Vertically align items */
-    flex-direction: row-reverse;   /* Reverse the direction to place image on the right */
-    position: relative;       /* Establish positioning context for absolute positioning */
+    display: flex;          
+    align-items: center;     
+    flex-direction: row-reverse;  
+    position: relative;      
 }
 .article7 img {
-    max-width: 50%;           /* Adjust as needed */
-    margin-left: -1%;        /* Positive margin to give space between image and paragraph */
-    z-index: 2;               /* Ensure the image appears above the paragraph's border */
+    max-width: 50%;        
+    margin-left: -1%;     
+    z-index: 2;             
 }
 .article7 p {
-    flex: 1;                  /* Allow paragraph to take up remaining space */
-    margin: 0;                /* Remove default margin */
-    position: relative;       /* Relative positioning for the paragraph */
-    padding: 15px;            /* Padding inside the paragraph for space */
-    border: 15px solid #155929; /* Green stroke around the paragraph */
-    border-radius: 30px;      /* Rounded corners for the stroke */
-    box-sizing: border-box;   /* Ensure padding is included in the element's total width/height */
-    z-index: 1;               /* Ensure the paragraph's border appears below the image */
+    flex: 1;             
+    margin: 0;               
+    position: relative;     
+    padding: 15px;          
+    border: 15px solid #155929; 
+    border-radius: 30px;     
+    box-sizing: border-box;  
+    z-index: 1;              
 }
 .article8 {
     display: flex;
