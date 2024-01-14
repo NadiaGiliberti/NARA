@@ -1,4 +1,4 @@
-/* Bilder bearbeiten: */
+/* Bilder einzeln: */
 
 .bildheader {
     width: 100%;
@@ -24,7 +24,7 @@
 
 .gemueseteller {
     width: 60%;
-   
+
 }
 
 
@@ -35,14 +35,15 @@
 
 
 .karte_bern {
-    display: flex;
-    width: 60%;
+    width: 100%;
 }
 
 
 .spinat {
     width: 10%;
-    margin-left: 100px;
+    margin-left: 10%;
+    margin-bottom: -10%;
+    position: relative;
     transform: scaleX(-1);
     z-index: 2;
 }
@@ -62,13 +63,14 @@
     padding: 20px;
     text-transform: none;
     list-style-type: disc;
+    margin-left: 20px;
 }
 
 
 .platform {
     display: flex;
     align-items: flex-start;
-    margin-left: 55px;
+    margin-left: 50px;
 
 }
 
@@ -78,13 +80,13 @@
 }
 
 .haendler {
-
+    padding: 10px;
     list-style: disc;
     text-transform: none;
-    margin: 20px;
+    margin-left: 20px;
 }
 
-h1{
+h1 {
     z-index: 1;
 }
 
@@ -105,23 +107,53 @@ button:hover {
     background-color: rgb(120, 146, 25);
 }
 
+.registrieren {
+    margin-bottom: 10px;
+}
+
+
+#plz {
+    width: 100px;
+}
+
+/* ab hier Sachen zu Flexboxen: */
+
 .article3 {
-display: flex;
-flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .article3_text {
-display: flex;
-flex-direction: column;
-flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .article3_bild {
-display: flex;
-flex: 1;
-justify-content: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
 }
 
+
+.interaktive_karte {
+    display: flex;
+    flex-direction: row;
+}
+
+.interaktive_karte_text {
+    display: flex;
+    flex-direction: column;
+    flex: 40%;
+}
+
+.interaktive_karte_bild {
+    display: flex;
+    flex-direction: column;
+    flex: 60%;
+    align-items: flex-end;
+    justify-content: center;
+}
 
 /*** Tablet  ***/
 @media screen and (max-width: 768px) {
@@ -145,6 +177,25 @@ justify-content: center;
     .gemueseteller {
         width: 40%;
     }
+
+    .schritte {
+
+        padding: 10px;
+    }
+
+    .werte {
+
+        padding: 5px;
+    }
+
+    .haendler {
+        padding: 5px;
+    }
+
+    .interaktive_karte {
+        flex-direction: column;
+    }
+
 }
 
 
@@ -165,6 +216,25 @@ justify-content: center;
         display: flex;
         flex-direction: column;
     }
-   
+
+    .schritte {
+
+        padding: 10px;
+    }
+
+    .werte {
+
+        padding: 5px;
+    }
+
+    .haendler {
+        padding: 5px;
+    }
+
+    .interaktive_karte {
+        flex-direction: column;
+    }
+
+
 
 }
