@@ -23,9 +23,8 @@
 }
 
 .gemueseteller {
-    width: 25%;
-    justify-content: end;
-    z-index: 1;
+    width: 60%;
+   
 }
 
 
@@ -69,7 +68,7 @@
 .platform {
     display: flex;
     align-items: flex-start;
-    margin-top: 10px;
+    margin-left: 55px;
 
 }
 
@@ -106,6 +105,22 @@ button:hover {
     background-color: rgb(120, 146, 25);
 }
 
+.article3 {
+display: flex;
+flex-direction: row;
+}
+
+.article3_text {
+display: flex;
+flex-direction: column;
+flex: 1;
+}
+
+.article3_bild {
+display: flex;
+flex: 1;
+justify-content: center;
+}
 
 
 /*** Tablet  ***/
@@ -120,6 +135,15 @@ button:hover {
     .warenkorb {
         width: 20%;
 
+    }
+
+    .article3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gemueseteller {
+        width: 40%;
     }
 }
 
@@ -137,6 +161,10 @@ button:hover {
 
     }
 
+    .article3 {
+        display: flex;
+        flex-direction: column;
+    }
    
 
 }
