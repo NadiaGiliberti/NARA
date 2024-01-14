@@ -1,16 +1,18 @@
 # NARA
- Das Startup aus Bern
+Das Startup aus Bern. Günstig für dich, gut für die Umwelt.
 
- ## TEAM
- - Aglaja
- - Nadia
- - Anna
- - Rabih
+## TEAM:
+- Aglaja Bohm
+- Nadia Giliberti
+- Anna Abegglen
+- Rabih Haj-Hassan
 
- markdown language mit chatGPT erstellen geht auch hihi
+## Verwendetes Mock-Up:
+Als Design-Vorlage unserer Webseite wurde das Mock-Up von Rabih verwendet.
 
- eckige klammern für den Text also so: [Text zum link ]
-  runde klammern für den Pfad also so: (link pfad)
-bsp: [text](https://google.ch)
+## Wie ist es uns ergangen:
+Ganz zu Beginn, als das Wissen noch nicht da war, wurde viel mit ChatGPT [https://chat.openai.com](https://chat.openai.com) erarbeitet. Nachdem wir immerhin etwas Ahnung vom Coden hatten, wurden auch Seiten wie W3Schools [https://www.w3schools.com](https://www.w3schools.com) hilfreich und dann auch verwendet. Wir haben die Unterstützung durch die Coachings als sehr hilfreich empfunden und sie haben uns als Gruppe sehr weitergebracht. Ein kleines Hindernis hierbei war, dass die Coachings nur zweimal persönlich stattgefunden hatten und sonst immer online mit Zeitlimit waren.
 
-README nicht in einen Ordner! ganz oben in der Ordnerstruktur
+## Bewusste Bugs:
+Unsere Seite ist auf allen in Google Chrome anwählbaren Handy/Tablet Typen responsive. 
+Einzige Ausnahme: Samsung Galaxy Fold. Da das Handy sehr schmal ist, hat unser Header nicht genug Platz und der Einloggen Button geht über den Bildschirm hinaus. In Absprache mit Alen und Wolfgang hieß es, dass wir das Galaxy Fold nicht beachten müssen. Dieser Bug wurde daher bewusst so belassen und nicht mit einer weiteren Media Querie behoben.
