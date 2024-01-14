@@ -68,12 +68,6 @@ h1{
     width: 18%;    
     left: 92%;
 }
-.registrieren {
-    display: flex;
-    align-items: flex-start;
-    margin-left: 55px;
-
-}
 .buttons {
     width: fit-content;
     background-color: #9dc01c;
