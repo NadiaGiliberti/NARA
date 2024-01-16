@@ -221,48 +221,6 @@ h1 {
 }
 
 
-@media screen and (max-width: 576px) {
-    .buttons {
-        font-size: 18px;
-        padding: 8px;
-    }
-
-    .rabih {
-        flex-direction: column;
-    }
-
-    .imgrabih {
-        margin-bottom: -7%;
-        margin-left: 0%;
-    }
-
-    .anna {
-        flex-direction: column;
-    }
-    .imganna {
-        margin-bottom: -7%;
-        margin-left: 0%;
-    }
-
-    .nadia {
-        flex-direction: column;
-    }
-
-    .imgnadia {
-        margin-bottom: -7%;
-        margin-left: 0%;
-    }
-
-    .aglaja {
-        flex-direction: column;
-    }
-
-    .imgaglaja{
-        margin-bottom: -7%;
-        margin-left: 0%;
-    }
-}
-
 @media screen and (max-width: 768px) and (min-width: 577px) {
     .buttons {
         font-size: 20px;
@@ -306,3 +264,46 @@ h1 {
 
 
 }
+
+@media screen and (max-width: 576px) {
+    .buttons {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    .rabih {
+        flex-direction: column;
+    }
+
+    .imgrabih {
+        margin-bottom: -7%;
+        margin-left: 0%;
+    }
+
+    .anna {
+        flex-direction: column;
+    }
+    .imganna {
+        margin-bottom: -7%;
+        margin-left: 0%;
+    }
+
+    .nadia {
+        flex-direction: column;
+    }
+
+    .imgnadia {
+        margin-bottom: -7%;
+        margin-left: 0%;
+    }
+
+    .aglaja {
+        flex-direction: column;
+    }
+
+    .imgaglaja{
+        margin-bottom: -7%;
+        margin-left: 0%;
+    }
+}
+
