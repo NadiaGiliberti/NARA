@@ -16,3 +16,5 @@ Ganz zu Beginn, als das Wissen noch nicht da war, wurde viel mit ChatGPT [https:
 ## Bewusste Bugs:
 Unsere Seite ist auf allen in Google Chrome anwählbaren Handy/Tablet Typen responsive. 
 Einzige Ausnahme: Samsung Galaxy Fold. Da das Handy sehr schmal ist, hat unser Header nicht genug Platz und der Einloggen Button geht über den Bildschirm hinaus. In Absprache mit Alen und Wolfgang hieß es, dass wir das Galaxy Fold nicht beachten müssen. Dieser Bug wurde daher bewusst so belassen und nicht mit einer weiteren Media Querie behoben.
+
+Ausserdem ist es uns nicht gelungen den Beispieltext auf der Kontaktseite zusammen mit den Textfeldern zu verkleinern. Das Mail wird deshalb auf der Handyansicht nur zu 50% angezeigt.
